@@ -2,14 +2,16 @@
 ## Acts of Kindness (AoKs)
 
 _If there's one thing that the world can always use more of, it's kindness._
+
 _Short of being able to directly add kindness to the world, tracking data around kindness is the next best thing._
-_Because remember, everything is A-oK!.
+
+_Because remember, everything is A-oK!._
 
 
 ### App Description
   The name of my app is 'acts of kindness' and is meant to be a simple web tool by which you can log acts of kindness that you witness and/or are a part of.
-  There is a simple description box on the landing page for the user to describe what the act of kindness was and towards whom.
-  The index page displays all of the acts of kindness that you have entered into the app.
+  There is a simple description box on the creation page for the user to describe what the act of kindness was and to/from whom.
+  The index page displays all of the acts of kindness that have been entered into the app, starting at the top with the most recent.
 
 ### Models
   The primary model in the project will be the _Act_ class, which will contain three text fields:
@@ -65,6 +67,6 @@ _Because remember, everything is A-oK!.
 
 [Markdown Reference](https://www.seevividly.com/images/Markdown_Reference.png)
 
-[Turmeric Django React Frontend Lecture](https://turmeric.seircohort.com/second-language/week-22/day-2/lecture-materials/react)
+[Turmeric Django React Frontend Lecture PDF](https://turmeric.seircohort.com/second-language/week-22/day-2/lecture-materials/react)
 
-[Turmeric Django API Lecture](https://turmeric.seircohort.com/second-language/week-22/day-1/lecture-materials/djangoapi)
+[Turmeric Django API Lecture PDF](https://turmeric.seircohort.com/second-language/week-22/day-1/lecture-materials/djangoapi)
