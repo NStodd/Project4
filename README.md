@@ -25,24 +25,33 @@ _Because remember, everything is A-oK!.
     *   Create - POST to '/aok/'
     *   Delete - DELETE to '/aok/:id'
     *   Update - POST to '/aok/:id'
+ 
   * Frontend
-    *   **Home Route**: _<Route path="/" element={<App/>}>_
-    *   **Index Route**: _4<Route path="" element={<Index/>} loader={indexLoader}/>_
-    *   **Show Route**: _<Route path="post/:id" element={<Show/>} loader={showLoader}/>_
-    *   **Create Route**: _<Route path="create" action={createAction}/>_
-    *   **Update Route**: _<Route path="update/:id" action={updateAction}/>_
-    *   **Delete Route**: _<Route path="delete/:id" action={deleteAction}/>_
+    *   **Home Route**: Route path="/"
+    *   **Index Route**: Route path="/aok"
+    *   **Show Route**: Route path="aok/:id"
+    *   **Create Route**: Route path="create"
+    *   **Update Route**: Route path="update/:id"
+    *   **Delete Route**: Route path="delete/:id"
         
 ### React Component Structure
 
 -> App
+
  	-> Header
+		-> Button - To be able to create a new AoK from any view.
+	
 	-> Outlet
-	-> Index
-				-> Post - a single AoK, displayed in descending chronological order.
-	-> Show 
-	-> Create Page
-	-> Delete 
+		-> Index
+			-> Post - a single AoK, displayed in descending chronological order.
+		-> Show 
+			-> Button - to navigate to AoK's Update view.
+			-> Button - to run the Delete AoK function.
+		-> Create
+			-> Form - 3 text fields and a submit button
+	
+		-> Update
+			-> Form - same 3 text fields and a submit button
 
 
 ### Mockups
