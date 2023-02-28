@@ -18,8 +18,6 @@ const post = useLoaderData()
         <div style={div}>
             <h2>{post.actor} for {post.recipient}</h2>
             <h1>{post.act}</h1>
-            
-            <h2></h2>
             <div style={{ textAlign: "center"}}>
                 <Form action ={`/update/${post.id}`} method="post">
                     <p>Who performed the kindness?
