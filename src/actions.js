@@ -61,12 +61,12 @@ export const updateAction = async ({request, params}) => {
 }
 
 // deleteAction, for deleting an existing AoK
-export const deleteAction = async({params}) => {
+export const deleteAction = async ({params}) => {
     // get id
     const id = params.id
 
     // send request
-    await fetch(URL + `/actsofkindness/${id}`, {
+    await fetch(URL + '/actsofkindness/' + id + '/', {
         method: "delete",
     })
 
