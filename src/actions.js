@@ -33,6 +33,7 @@ export const createAction = async ({request}) => {
 
 // updateAction, for updating an existing AoK
 export const updateAction = async ({request, params}) => {
+    console.log("you are in updateAction")
     // form data
     const formData = await request.formData()
 
@@ -56,7 +57,7 @@ export const updateAction = async ({request, params}) => {
     })
 
     // redirect
-    return redirect(`/kindness/${id}`)
+    return redirect(`/actsofkindness/${id}`)
 }
 
 // deleteAction, for deleting an existing AoK
@@ -65,7 +66,7 @@ export const deleteAction = async({params}) => {
     const id = params.id
 
     // send request
-    await fetch(URL + `/kindness/${id}`, {
+    await fetch(URL + `/actsofkindness/${id}`, {
         method: "delete",
     })
 
