@@ -31,7 +31,7 @@ const post = useLoaderData()
                     </p>
                     <button>Update This Kindness</button>
                 </Form>
-                <Form action={`/delete/${post.id}`} method="post">
+                <Form action={`/delete/${post.id}/`} method="post">
                     <button>Delete This Kindness</button>
                 </Form>
             </div>
