@@ -56,7 +56,7 @@ _Because remember, everything is A-oK!._
 			-> Form - same 3 text fields and a submit button
 
 
-### Mockups
+### Mockups!
 
 ![Index Mockup](https://i.imgur.com/MJB3LNp.png)
 ![Show Mockup](https://i.imgur.com/teGcqxp.png)
